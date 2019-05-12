@@ -1,0 +1,27 @@
+{
+  "name": "awarejs",
+  "version": "0.1.0",
+  "description": "An easy way to trigger notifications via emails with stack trace whenever an error occurs inside a Node JS Application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "exceptions",
+    "email",
+    "notifications",
+    "alert",
+    "aware",
+    "exceptions",
+    "tracking"
+  ],
+  "author": "Saumya Rastogi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "error-stack-parser": "^2.0.2",
+    "nodemailer": "^6.1.1"
+  }
+}
