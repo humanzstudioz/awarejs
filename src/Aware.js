@@ -1,6 +1,7 @@
 'use strict'
 
 const ejs = require('ejs');
+const path = require('path');
 const ErrorStackParser = require('error-stack-parser');
 const NodeMailer = require('nodemailer');
 
@@ -93,7 +94,7 @@ class Aware {
             return;
         }
 
-        ejs.renderFile('./templates/default.ejs', this.errDataObj, this.templateOptions, (err, htmlStr) => {
+        ejs.renderFile(path(__dirname, '../templates/default.ejs'), this.errDataObj, this.templateOptions, (err, htmlStr) => {
             if(this.options.debug) {
                 console.log(err, htmlStr);
             }
