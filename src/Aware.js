@@ -94,7 +94,7 @@ class Aware {
             return;
         }
 
-        ejs.renderFile(path(__dirname, '../templates/default.ejs'), this.errDataObj, this.templateOptions, (err, htmlStr) => {
+        ejs.renderFile(path.resolve(__dirname, '../templates/default.ejs'), this.errDataObj, this.templateOptions, (err, htmlStr) => {
             if(this.options.debug) {
                 console.log(err, htmlStr);
             }
