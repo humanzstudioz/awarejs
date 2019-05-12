@@ -1,6 +1,6 @@
 {
   "name": "awarejs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An easy way to trigger notifications via emails with stack trace whenever an error occurs inside a Node JS Application.",
   "main": "index.js",
   "scripts": {
