@@ -17,6 +17,10 @@
     "exceptions",
     "tracking"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanzstudioz/awarejs.git"
+  },
   "author": "Saumya Rastogi",
   "license": "ISC",
   "dependencies": {
